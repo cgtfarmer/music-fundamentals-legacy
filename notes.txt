@@ -1,0 +1,1 @@
+***It's possible to break the nav bar by closing/opening/closing on mobile, then increasing size to desktop screen - the links don't appear
