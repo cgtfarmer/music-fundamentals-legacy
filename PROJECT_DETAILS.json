@@ -1,0 +1,31 @@
+{
+	"title" : "Music Theory Website", 
+	"date" : "2019-06", 
+	"revenue" : "No", 
+	"status" : "In Progress", 
+	"summary" : "The purpose of this project is to facilitate teaching the basics of music theory and provide access to reference materials and quizzes that go along with them to help memorize/practice the relevant details/concepts",
+	"description" : "", 
+	"future-work" : [
+						""
+				    ],
+	"live-link" : "N/A", 
+	"demonstration-link" : "info.christianfarmer.org/musicTheory", 
+	"repository-link" : "-", 
+	"supported-platforms" : "Windows, MacOS, Linux", 
+	"supported-browsers" : "Firefox", 
+	"version-control" : "Git", 
+	"development-methods" : "-", 
+	"team-size" : "1", 
+	"lines-of-code" : "0", 
+	"user-interface" : "Web", 
+	"keywords" : ["Education"], 
+	"languages" : ["HTML, CSS, JavaScript"],
+	"libraries" : [
+					"jQuery/AJAX"
+				  ],
+	"external-programs" : "None", 
+	"development-os" : "Linux: Arch", 
+	"deployment-os" : "Linux: Debian", 
+	"web-server" : "Apache", 
+	"databases" : ["None"]
+}
