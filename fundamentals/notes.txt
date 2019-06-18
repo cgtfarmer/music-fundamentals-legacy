@@ -1,0 +1,33 @@
+Fix the figcaption thing going on? should be alt text
+Finish the
+## Deriving a key from its root note
+section
+
+# ======================================
+# EXTRA STUFF I SHOULD COVER
+# ======================================
+### Chord Functions
+"dominant, mediant, submediant"
+
+### Pentatonic Scales
+* There are also common scales of a key that use less than 7 notes, as the modes do
+* Major/Minor Pentatonic (same thing)
+* Blue scale (same thing, with b5)
+
+
+* equal temperament
+
+the vibes guy for learning scales
+
+guitar
+drums
+piano
+ear training
+- scale degrees, intervals/chords, rhythm
+
+guitar - ukulele/nylon guitar strings
+guitar is the easiest way to get started with music because the open chords let you do 90% of the job without any theory - piano requires voice leading
+
+guitar - find YT video showing hand placement for chords (or Justinguitar)
+- find video where someone explains hand/wrist positioning for chords
+
