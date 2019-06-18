@@ -1,0 +1,161 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+html {
+	/* em = start, vw = scaling speed */
+	font-size: calc(0.8em + 1vw);
+}
+
+body {
+	background-color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	margin: auto;
+}
+
+button { 
+	font-family: inherit;
+	font-size: inherit;
+}
+
+input {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin: 8px 5px;
+	text-align: center;
+}
+
+input[type="text"] {
+	margin: 5px 5px;
+	padding: 5px 5px;
+}
+
+#page-header { grid-area: header; }
+#page-main { grid-area: main; }
+#page-menu { grid-area: menu; }
+#page-footer { grid-area: footer; }
+
+#page-grid {
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: auto;
+	grid-template-areas:
+		'header'
+		'menu'
+		'main'
+		'footer';
+}
+
+#page-menu {
+	padding: 10px;
+	border: 2px solid #000000;
+}
+
+#page-menu header {
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+#page-menu div.section-body {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center; 
+	align-items: center;
+	align-content: center;
+}
+
+#page-footer {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: small;
+}
+
+#page-main h1,
+#page-main h2, 
+#page-main h3, 
+#page-main h4 {
+	padding: 10px 0px;
+}
+
+#page-main > header {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+#page-main > header:first-of-type {
+	margin-top: 0px;
+}
+
+#page-main > header p {
+	margin: 0px;
+	padding: 0px;
+	font-style: italic;
+}
+
+#page-main p {
+	margin: 30px 0px;
+	line-height: 1.5;
+}
+
+#page-main {
+	padding: 30px;
+	max-width: 675px;
+}
+
+ul {
+	margin-left: 25px;
+	line-height: 1.5;
+}
+
+li {
+	padding: 5px 0px;
+}
+
+blockquote, pre {
+	overflow-x: auto;
+	font-family: serif;
+	font-size: 0.85em;
+	background: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p, pre code {
+	display: inline;
+}
+
+@media only screen and (min-width: 890px) {
+
+	#page-grid {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+		grid-template-columns: 17% 17% auto auto auto auto;
+		grid-template-areas:
+			'header header header header header header'
+			'menu menu main main main main'
+			'menu menu main main main main'
+			'footer footer footer footer footer footer';
+	}
+
+	#page-menu div.section-body {
+		display: block;
+	}
+
+}
+
