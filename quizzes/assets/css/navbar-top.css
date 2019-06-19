@@ -42,7 +42,7 @@
 	display: none;
 }
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 890px) {
 	
 	#page-header .menu-toggle {
 		display: none;

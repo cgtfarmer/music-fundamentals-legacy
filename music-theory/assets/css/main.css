@@ -114,9 +114,12 @@ input[type="text"] {
 #page-main {
 	padding: 30px;
 	max-width: 675px;
+	margin: 0px auto;
 }
 
 img {
+	display: block;
+	margin: auto;
 	max-width: 600px;
 }
 
@@ -144,7 +147,11 @@ blockquote p, pre code {
 	display: inline;
 }
 
-@media only screen and (min-width: 890px) {
+code {
+	font-family: "Courier New";
+}
+
+@media only screen and (min-width: 1020px) {
 
 	#page-grid {
 		display: grid;
@@ -159,6 +166,10 @@ blockquote p, pre code {
 
 	#page-menu div.section-body {
 		display: block;
+	}
+
+	#page-main {
+		margin: 0px;
 	}
 
 }
