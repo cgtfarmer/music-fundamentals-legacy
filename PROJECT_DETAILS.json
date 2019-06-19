@@ -11,21 +11,21 @@
 	"live-link" : "N/A", 
 	"demonstration-link" : "info.christianfarmer.org/musicTheory", 
 	"repository-link" : "-", 
-	"supported-platforms" : "Windows, MacOS, Linux", 
-	"supported-browsers" : "Firefox", 
+	"supported-platforms" : ["Windows", "MacOS", "Linux"],
+	"supported-browsers" : ["Mozilla Firefox"],
 	"version-control" : "Git", 
 	"development-methods" : "-", 
 	"team-size" : "1", 
 	"lines-of-code" : "0", 
 	"user-interface" : "Web", 
 	"keywords" : ["Education"], 
-	"languages" : ["HTML, CSS, JavaScript"],
+	"languages" : ["HTML", "CSS", "JavaScript"],
 	"libraries" : [
 					"jQuery/AJAX"
 				  ],
-	"external-programs" : "None", 
+	"external-programs" : "-", 
 	"development-os" : "Linux: Arch", 
 	"deployment-os" : "Linux: Debian", 
 	"web-server" : "Apache", 
-	"databases" : ["None"]
+	"databases" : ["-"]
 }
