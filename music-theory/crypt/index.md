@@ -316,17 +316,54 @@ first white key to the left of
 the note: C#/Db
 ~~~
 
-half steps - count from c to c# (db), that is 1 half step. count from e to f, one half step. now count from c to d, 2 half steps = whole step.
+After having located the C note, notice that the (C#/Db) key sort of "separates" the C and D keys on the piano. This might be a helpful image to remember that the "distance" between the C and (C#/Db) keys is referred to as a "half step" or and the distance between the C and D keys is referred to as a "whole step". If you move from C to the next C (an octave higher), but you do it incrementally in half steps, it'll look like this:
 
-What if I told you to count this pattern from C: W-W-H-W-W-W-H, where W = whole step, H = half step. What do you come up with?
+~~~
+1    2    3    4    5 6    7    8    9    10   11   12 1
+C (C#/Db) D (D#/Eb) E F (F#/Gb) G (G#/Ab) A (A#/Bb) B  C
+~~~
 
-All white notes happen to be the key C
+And if you move from C to C (an octave higher) incrementally via whole steps, it will look like this:
 
-starting on each of the 12 unique root notes and applying that pattern yields each of the 12 possible keys, shown in the image below:
+~~~
+1 2 3    4       5       6    1
+C D E (F#/Gb) (G#/Ab) (A#/Bb) C
+~~~
+
+What if I told you to identify the notes that follow this pattern from the C note: 
+
+~~~
+(R) W-W-H-W-W-W-H
+
+(where R = root note, 
+W = whole step, 
+H = half step)
+~~~
+
+What do you come up with?
+
+~~~
+1		  2         3 4         5         6         7 1
+C (C#/Db) D (D#/Eb) E F (F#/Gb) G (G#/Ab) A (A#/Bb) B C
+~~~
+
+As it turns out, when starting on the C note, this pattern yields all 7 (unique) notes which belong to the key of C, and the notes happen to be in the order of the "C Ionian Mode" (aka "C Major Scale"). This was covered in a previous section pertaining to modes/scales, so it's assumed that you're already familiar with these terms/ideas.
+
+Let's try applying the pattern one more time except, this time, let's start from the D note
+
+~~~
+1		  2      3	  4			5         6      7	  1
+D (D#/Eb) E F (F#/Gb) G (G#/Ab) A (A#/Bb) B C (C#/Db) D
+~~~
+
+Again, as expected, the notes of the key of D are derived, and they're given to us in the order of the D ionian mode (D major scale)
+
+Starting on each of the 12 unique root notes and applying that pattern yields the major scales (and, by extension, the notes of the key) of each of the 12 possible keys, shown in the image below:
 
 ![image showing a piano keyboard with the piano keys pertaining to each musical key being shaded a different color for the purpose of enabling the viewer to easily distinguish (for each musical key) the piano keys which belong to the musical key](./assets/images/majorPianoScales.png)
 
-Feel free to verify this for yourself
+Feel free to practice and verify this for yourself
+
 
 ### Scale degree intervals
 
@@ -476,8 +513,7 @@ C  |C  D  E  F  G  A  B  C  D  E  F
 
 So, there's the diatonic B chord spelled out in the key of C, and we know that any chord built on the 7th scale degree of a key's major scale is going to be diminished, by *why*? Comparing the notes on the bottom line which comprise the B chord to the notes at the top line, which reveal their "identities", we can see the notes B, D and F are the 1, b3 and b5 respectively. And there we have our answer
 
-In summary:
-
+### Summary
 * We know from the NNS that diatonic triads built on the 1st, 4th and 5th scale degrees of a scale are major
 * We also know that diatonic triads built on the 2nd, 3rd and 6th scale degrees are minor
 * We also know that the diatonic triad built on the 7th scale degree is going to be diminished

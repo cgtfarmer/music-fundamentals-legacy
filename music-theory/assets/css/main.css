@@ -116,6 +116,10 @@ input[type="text"] {
 	max-width: 675px;
 }
 
+img {
+	max-width: 600px;
+}
+
 ul {
 	margin-left: 25px;
 	line-height: 1.5;

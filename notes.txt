@@ -1,1 +1,37 @@
 ***It's possible to break the nav bar by closing/opening/closing on mobile, then increasing size to desktop screen - the links don't appear
+
+Clicking on a box at the top doens't work, have to click on text - fix that
+
+Need to figure out how to freaking organize this content!
+Intro
+
+# 3 pillars
+* musical creativity
+* technical proficiency
+* music theory/ear training
+	- technical proficiency is not enough
+	- music theory/ear training does not hinder creativity
+	- Fine, music theory/ear training is a big deal, and I need to understand it to play my musical ideas with an instrument. What is it?
+	- okay, how does it all work?
+
+# fundamentals
+* general
+	- summary
+* modes/scales
+* chords/the NNS
+	- chord progressions
+	- harmony/melody
+* intervals - scale/chord qualities
+	- deriving a key from root note
+	- scale degree intervals
+	- where diatonic triad chord qualities come from
+		+ summary
+	- diatonic tetrad chord qualities (and others)
+	- introduction to tensions/upper triads/embellishment notes
+	- basics of chord voicings
+		+ triads/inversions
+		+ tetrads/inversions
+		+ tensions/omissions
+	- scale qualities
+
+
