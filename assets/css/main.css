@@ -161,6 +161,24 @@ code {
 	font-family: "Courier New";
 }
 
+@media only screen and (min-width: 375px) {
+	blockquote, pre {
+		max-width: 305px;
+	}
+}
+
+@media only screen and (min-width: 410px) {
+	blockquote, pre {
+		max-width: 330px;
+	}
+}
+
+@media only screen and (min-width: 650px) {
+	blockquote, pre {
+		max-width: 570px;
+	}
+}
+
 @media only screen and (min-width: 890px) {
 
 	#page-grid {
@@ -196,3 +214,15 @@ code {
 
 }
 
+@media only screen and (min-width: 1200px) {
+	blockquote, pre {
+		max-width: 700px;
+	}
+}
+
+
+@media only screen and (min-width: 1350px) {
+	blockquote, pre {
+		max-width: 820px;
+	}
+}
