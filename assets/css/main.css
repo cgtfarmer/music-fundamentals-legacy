@@ -130,6 +130,8 @@ input[type="text"] {
 img {
 	display: block;
 	margin: auto;
+	width: 80%;
+	min-width: 300px;
 	max-width: 600px;
 }
 
@@ -143,14 +145,17 @@ li {
 }
 
 blockquote, pre {
+	display: inline-block;
 	overflow-x: auto;
 	font-family: serif;
 	font-size: 0.85em;
 	background: #f9f9f9;
 	border-left: 10px solid #ccc;
 	margin: 1.5em 10px;
+	margin-right: 0px;
 	padding: 0.5em 10px;
 	quotes: "\201C""\201D""\2018""\2019";
+	max-width: 290px;
 }
 
 blockquote p, pre code {
