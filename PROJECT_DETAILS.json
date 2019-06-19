@@ -8,24 +8,24 @@
 	"future-work" : [
 						""
 				    ],
-	"live-link" : "N/A", 
-	"demonstration-link" : "info.christianfarmer.org/musicTheory", 
-	"repository-link" : "-", 
-	"supported-platforms" : ["Windows", "MacOS", "Linux"],
-	"supported-browsers" : ["Mozilla Firefox"],
+	"live-link" : "info.christianfarmer.org/musicFundamentals", 
+	"demonstration-link" : "None", 
+	"repository-link" : "None", 
+	"supported-platforms" : ["Windows", "MacOS", "Linux", "Android", "iOS"],
+	"supported-browsers" : ["Mozilla Firefox", "Safari"],
 	"version-control" : "Git", 
-	"development-methods" : "-", 
+	"development-methods" : "None", 
 	"team-size" : "1", 
 	"lines-of-code" : "0", 
 	"user-interface" : "Web", 
-	"keywords" : ["Education"], 
+	"keywords" : ["Education", "Web Application", "Content Sharing", "UI/UX"], 
 	"languages" : ["HTML", "CSS", "JavaScript"],
 	"libraries" : [
-					"jQuery/AJAX"
+					"JavaScript: jQuery/AJAX, AngularJS"
 				  ],
-	"external-programs" : "-", 
+	"external-programs" : "None", 
 	"development-os" : "Linux: Arch", 
 	"deployment-os" : "Linux: Debian", 
 	"web-server" : "Apache", 
-	"databases" : ["-"]
+	"databases" : ["None"]
 }
