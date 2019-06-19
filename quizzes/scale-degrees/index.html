@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+		<title>Quiz: Scale Degrees</title>
+		<link rel="stylesheet" href="assets/css/main.css"/>
+		<link rel="stylesheet" href="assets/css/navbar-top.css"/>
+	</head>
+	<body>
+
+		<article id="page-grid" ng-app="myApp" ng-controller="myCtrl">
+
+			<header id="page-header">
+				<h3 class="menu-toggle" onclick="toggleMenu()">&#9776;</h3>
+				<ul id="main-nav">
+					<li><a href="../../">Home</a></li>
+					<li><a href="../../three-pillars">3 Pillars</a></li>
+					<li><a href="../../music-theory">Music Theory</a></li>
+					<li class="active"><a href="../">Quizzes</a></li>
+				</ul>
+			</header>
+
+			<header id="page-title-banner">
+				<h1>Quiz: Scale Degrees</h1>
+			</header>
+
+			<section id="page-menu">
+				<section id="mode-menu">
+					<header>
+						<h3>Quiz Modes</h3>
+					</header>
+					<section id="mode-options" class="flex section-body">
+						<div>
+							<label>
+								<input type="radio" name="quiz-mode" value="scale-degree" checked ng-click="alterActiveMode($event)"/>
+								Scale Degree &rarr; Note
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="radio" name="quiz-mode" value="note" ng-click="alterActiveMode($event)"/>
+								Note &rarr; Scale Degree
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="radio" name="quiz-mode" value="both" ng-click="alterActiveMode($event)"/>
+								Both
+							</label>
+						</div>
+					</section>
+				</section>
+
+				<section id="key-menu">
+					<header>
+						<h3>Keys</h3>
+					</header>
+
+					<div id="key-options" class="flex section-body">
+						<section>
+							<label>
+								<input type="checkbox" value="C" checked ng-click="alterActiveKeys($event)"/>C
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="D" checked ng-click="alterActiveKeys($event)"/>D
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="E" checked ng-click="alterActiveKeys($event)"/>E
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="F" checked ng-click="alterActiveKeys($event)"/>F
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="G" checked ng-click="alterActiveKeys($event)"/>G
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="A" checked ng-click="alterActiveKeys($event)"/>A
+							</label>
+
+						</section>
+
+						<section>
+
+							<label>
+								<input type="checkbox" value="B" checked ng-click="alterActiveKeys($event)"/>B
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="Db" checked ng-click="alterActiveKeys($event)"/>Db
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="Eb" checked ng-click="alterActiveKeys($event)"/>Eb
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="Gb" checked ng-click="alterActiveKeys($event)"/>Gb
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="Ab" checked ng-click="alterActiveKeys($event)"/>Ab
+							</label>
+
+							<br/>
+
+							<label>
+								<input type="checkbox" value="Bb" checked ng-click="alterActiveKeys($event)"/>Bb
+							</label>
+						</section>
+					</div>
+
+				</section>
+			</section>
+
+			<section id="page-main">
+
+				<section>
+					<header>
+						<h2>Question</h2>
+					</header>
+
+					<section class="section-body">
+
+						<table id="question-table">
+							<tr>
+								<th>
+									<h3>Key</h3>
+								</th>
+
+								<th>
+									<h3>{{modeSelection}}</h3>
+								</th>
+							</tr>
+
+							<tr>
+								<td>
+									<h3>{{keySelection}}</h3>
+								</td>
+
+								<td>
+									<h3>{{question}}</h3>
+								</td>
+							</tr>
+						</table>
+
+					</section>
+				</section>
+
+				<section>
+					<header>
+						<h2>Answer</h2>
+					</header>
+
+					<section class="section-body">
+						<section id="answer-body">
+							<input id="answer-input" type="text" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" ng-model="answer" ng-keypress="checkAnswer($event)"><br>
+
+							<input id="answer-submit" type="button" value="Submit" ng-click="checkAnswer()"><br>
+
+							<h1 id="result-icon">&#x2713;</h1>
+						</section>
+					</section>
+
+				</section>
+
+			</section>
+
+			<section id="page-help">
+				<input id="help-btn" type="button" value="Show Help" ng-model="helpBtn" ng-click="toggleHelpTable()"><br>
+
+				<table id="help-table">
+					<tr>
+						<th><h2>Key</h2></th>
+						<th><h2>1</h2></th>
+						<th><h2>2</h2></th>
+						<th><h2>3</h2></th>
+						<th><h2>4</h2></th>
+						<th><h2>5</h2></th>
+						<th><h2>6</h2></th>
+						<th><h2>7</h2></th>
+					</tr>
+
+					<tr ng-repeat="(key, scaleDegrees) in data">
+						<td>{{ key }}</td>
+						<td>{{ scaleDegrees["1"] }}</td>
+						<td>{{ scaleDegrees["2"] }}</td>
+						<td>{{ scaleDegrees["3"] }}</td>
+						<td>{{ scaleDegrees["4"] }}</td>
+						<td>{{ scaleDegrees["5"] }}</td>
+						<td>{{ scaleDegrees["6"] }}</td>
+						<td>{{ scaleDegrees["7"] }}</td>
+					</tr>
+				</table>
+			</section>
+
+			<footer id="page-footer">
+				<p>Have questions/suggestions?</p>
+				<p>Contact me at: <a href="mailto:christian.gt.farmer@gmail.com">christian.gt.farmer@gmail.com</a></p>
+				<br>
+				<p>Creation date: 2019-06</p>
+				<p>Last edit: Wed 12 Jun 2019 04:47:10 PM CDT</p>
+				<p >&copy; 2019 Christian Farmer, All Rights Reserved</p>
+			</footer>
+
+		</article>
+
+		<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/angular-1.7.8.min.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -48,11 +48,20 @@ input[type="text"] {
 	display: grid;
 	grid-template-rows: auto auto auto auto;
 	grid-template-columns: auto;
+
+	/* If 2 Columns */
 	grid-template-areas:
 		'header'
 		'menu'
 		'main'
 		'footer';
+
+	/* If 1 Column */
+	/* grid-template-areas:
+		'header'
+		'main'
+		'footer'; */
+
 }
 
 #page-menu {
@@ -85,12 +94,13 @@ input[type="text"] {
 #page-main h2, 
 #page-main h3, 
 #page-main h4 {
-	padding: 10px 0px;
+	padding: 5px 0px;
 }
 
 #page-main > header {
 	margin-top: 40px;
 	margin-bottom: 10px;
+	padding: 5px 10px;
 	text-align: center;
 	border: 2px solid #000000;
 	border-radius: 4px;
@@ -157,11 +167,22 @@ code {
 		display: grid;
 		grid-template-rows: auto auto auto auto;
 		grid-template-columns: 17% 17% auto auto auto auto;
+
+		/* 2 Columns */
 		grid-template-areas:
 			'header header header header header header'
 			'menu menu main main main main'
 			'menu menu main main main main'
 			'footer footer footer footer footer footer';
+
+		/* 1 Column */
+		/* grid-template-columns: auto auto auto auto auto auto;
+		grid-template-areas:
+			'header header header header header header'
+			'main main main main main main'
+			'main main main main main main'
+			'footer footer footer footer footer footer'; */
+
 	}
 
 	#page-menu div.section-body {
@@ -169,6 +190,7 @@ code {
 	}
 
 	#page-main {
+		/* If 2 Columns: */
 		margin: 0px;
 	}
 

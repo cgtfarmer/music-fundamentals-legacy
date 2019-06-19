@@ -2,36 +2,30 @@
 
 Clicking on a box at the top doens't work, have to click on text - fix that
 
-Need to figure out how to freaking organize this content!
-Intro
+find an awesomer monospaced font and get it loading from the local assets
 
-# 3 pillars
-* musical creativity
-* technical proficiency
-* music theory/ear training
-	- technical proficiency is not enough
-	- music theory/ear training does not hinder creativity
-	- Fine, music theory/ear training is a big deal, and I need to understand it to play my musical ideas with an instrument. What is it?
-	- okay, how does it all work?
+go back to the pillars and implement the new system with the side menu bar that reveals the setions instead of just jumpting to them on the page
+	actually, consider doing a "linear lessons listing" instead?
+	load up the page with everything, start with all hidden except the first one, have the "active" blue thingy on it
 
-# fundamentals
-* general
-	- summary
-* modes/scales
-* chords/the NNS
-	- chord progressions
-	- harmony/melody
-* intervals - scale/chord qualities
-	- deriving a key from root note
-	- scale degree intervals
-	- where diatonic triad chord qualities come from
-		+ summary
-	- diatonic tetrad chord qualities (and others)
-	- introduction to tensions/upper triads/embellishment notes
-	- basics of chord voicings
-		+ triads/inversions
-		+ tetrads/inversions
-		+ tensions/omissions
-	- scale qualities
+finish musicTheory index page
+finish other music theory quizzes from notes file in prep for Caleb
+
+# Quizzes
+# --------------------------------------
+modes
+	which key they belong to
+triads/tetrads/inversions
+	(this way, ambiguous the other way around)
+	"g maj 1st inversion"
+	b d g
+
+	"c maj7 3rd inversion"
+	b c e g
+
+	choose roots
+	choose qualities
+	can't choose inversions
+
 
 
