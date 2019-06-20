@@ -11,6 +11,7 @@ go back to the pillars and implement the new system with the side menu bar that 
 finish musicTheory index page
 finish other music theory quizzes from notes file in prep for Caleb
 
+consider adding guitar/drums/piano pages to it
 
 
 # Quizzes
