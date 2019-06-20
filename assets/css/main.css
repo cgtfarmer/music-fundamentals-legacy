@@ -46,21 +46,22 @@ input[type="text"] {
 
 #page-grid {
 	display: grid;
-	grid-template-rows: auto auto auto;
 	grid-template-columns: auto;
 
-	/* If 2 Columns */
-	/* grid-template-areas:
-		'header'
-		'main'
-		'menu'
-		'footer'; */
-
-	/* If 1 Column */
+	/* If 3 Rows */
+	grid-template-rows: auto auto auto;
 	grid-template-areas:
 		'header'
 		'main'
 		'footer';
+
+	/* If 4 Rows */
+	/* grid-template-rows: auto auto auto auto;
+	grid-template-areas:
+		'header'
+		'main'
+		'menu'
+		'footer'; */
 
 }
 
@@ -190,14 +191,6 @@ code {
 		display: grid;
 		grid-template-rows: auto auto auto auto;
 
-		/* 2 Columns */
-		/* grid-template-columns: 17% 17% auto auto auto auto;
-		grid-template-areas:
-			'header header header header header header'
-			'menu menu main main main main'
-			'menu menu main main main main'
-			'footer footer footer footer footer footer'; */
-
 		/* 1 Column */
 		grid-template-columns: auto auto auto auto auto auto;
 		grid-template-areas:
@@ -205,6 +198,14 @@ code {
 			'main main main main main main'
 			'main main main main main main'
 			'footer footer footer footer footer footer';
+
+		/* 2 Columns */
+		/* grid-template-columns: 17% 17% auto auto auto auto;
+		grid-template-areas:
+			'header header header header header header'
+			'menu menu main main main main'
+			'menu menu main main main main'
+			'footer footer footer footer footer footer'; */
 
 	}
 
