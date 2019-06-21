@@ -4,11 +4,11 @@
 	"revenue" : "No", 
 	"status" : "In Progress", 
 	"summary" : "The purpose of this project is to facilitate teaching the basics of music theory and provide access to reference materials and quizzes that go along with them to help memorize/practice the relevant details/concepts",
-	"description" : "", 
+	"description" : "Responsive. Bash, pandoc, sed were used as a 'bootstrap' process to do the original conversion of the content from Markdown to HTML - sed supplies some automated details injection. jQuery handles the mobile version of the navigation menu. The quiz applications in the website are listed as separate projects", 
 	"future-work" : [
 						""
 				    ],
-	"live-link" : "info.christianfarmer.org/musicFundamentals", 
+	"live-link" : "http://info.christianfarmer.org/musicFundamentals", 
 	"demonstration-link" : "None", 
 	"repository-link" : "None", 
 	"supported-platforms" : ["Windows", "MacOS", "Linux", "Android", "iOS"],
@@ -19,11 +19,11 @@
 	"lines-of-code" : "0", 
 	"user-interface" : "Web", 
 	"keywords" : ["Education", "Web Application", "Content Sharing", "UI/UX"], 
-	"languages" : ["HTML", "CSS", "JavaScript"],
+	"languages" : ["HTML", "CSS", "JavaScript", "Markdown", "Bash"],
 	"libraries" : [
-					"JavaScript: jQuery/AJAX, AngularJS"
+					"JavaScript: jQuery"
 				  ],
-	"external-programs" : "None", 
+	"external-programs" : "pandoc, sed", 
 	"development-os" : "Linux: Arch", 
 	"deployment-os" : "Linux: Debian", 
 	"web-server" : "Apache", 
