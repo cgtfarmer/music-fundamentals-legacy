@@ -1,12 +1,14 @@
 {
-	"title" : "Music Theory Website", 
+	"title" : "Music Fundamentals Website", 
 	"date" : "2019-06", 
 	"revenue" : "No", 
 	"status" : "In Progress", 
 	"summary" : "The purpose of this project is to facilitate teaching the basics of music theory and provide access to reference materials and quizzes that go along with them to help memorize/practice the relevant details/concepts",
-	"description" : "Responsive. Bash, pandoc, sed were used as a 'bootstrap' process to do the original conversion of the content from Markdown to HTML - sed supplies some automated details injection. jQuery handles the mobile version of the navigation menu. The quiz applications in the website are listed as separate projects", 
+	"description" : "Responsive. Bash, pandoc, sed were used as a 'bootstrap' process to do the original conversion of the content from Markdown to HTML - sed supplies some automated details injection. jQuery handles the mobile version of the navigation menu. The quiz applications in the website are listed as separate projects. Regarding lines of code, I only counted 200 LOC for the HTML file of each informational webpage, then the CSS/JS for one webpage - also, I did not include the quiz applications as they are listed as separate projects due to their size", 
 	"future-work" : [
-						""
+						"Refine explanations",
+						"Improve content organization and presentation",
+						"Improve aesthetics"
 				    ],
 	"live-link" : "http://info.christianfarmer.org/musicFundamentals", 
 	"demonstration-link" : "None", 
@@ -16,7 +18,7 @@
 	"version-control" : "Git", 
 	"development-methods" : "None", 
 	"team-size" : "1", 
-	"lines-of-code" : "0", 
+	"lines-of-code" : "768", 
 	"user-interface" : "Web", 
 	"keywords" : ["Education", "Web Application", "Content Sharing", "UI/UX"], 
 	"languages" : ["HTML", "CSS", "JavaScript", "Markdown", "Bash"],
