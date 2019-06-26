@@ -11,8 +11,8 @@
 						"Improve aesthetics"
 				    ],
 	"live-link" : "http://info.christianfarmer.org/musicFundamentals", 
-	"demonstration-link" : "None", 
-	"repository-link" : "None", 
+	"demonstration-link" : "Contact me", 
+	"repository-link" : "Contact me", 
 	"supported-platforms" : ["Windows", "MacOS", "Linux", "Android", "iOS"],
 	"supported-browsers" : ["Mozilla Firefox", "Safari"],
 	"version-control" : "Git", 
